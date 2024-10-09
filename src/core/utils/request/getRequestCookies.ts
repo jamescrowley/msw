@@ -1,4 +1,4 @@
-import cookieUtils from '@bundled-es-modules/cookie'
+import * as cookieUtils from 'cookie'
 import { cookieStore } from '../cookieStore'
 
 function getAllDocumentCookies() {
